@@ -25,4 +25,6 @@ Invoke-WebRequest -Uri "https://2.na.dl.wireshark.org/win64/Wireshark-4.2.5-x64.
 Start-Process "C:\working-temp\WiresharkInstaller.exe" -Argument "/S /desktopicon=YES"
 
 ## Clean up
+Write-Host "Cleaning up..."
+Start-Sleep 69
 Remove-Item C:\working-temp -Recurse -Force
