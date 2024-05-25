@@ -1,3 +1,6 @@
+## Set Execution Policy for the script to run properly.
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Unrestricted
+
 ## Create a working directory on the C drive to handle temp files.
 New-Item -ItemType Directory -Path C:\working-temp
 
